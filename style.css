@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    background-color:black;
+}
+
+.clock {
+    border: 1px solid pink;
+    color: white;
+    padding: 5vw; /* Use vw units for padding to make it responsive */
+    border-radius: 5vw; /* Use vw units for border-radius to make it responsive */
+    background-color: black;
+}
+
+#Date {
+    font-size: 2.9vw; /* Use vw units for font-size to make it responsive */
+    text-align: center;
+}
+
+.clock ul {
+    list-style: none;
+    display: flex;
+    font-size: 6vw; /* Use vw units for font-size to make it responsive */
+    gap: 2vw; /* Use vw units for gap to make it responsive */
+}
+
+
+@media screen and (max-width: 600px) {
+    /* Adjust styles for screens with a maximum width of 600px (e.g., smartphones) */
+    .clock {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #Date {
+        font-size: 16px;
+    }
+
+    .clock ul {
+        font-size: 24px;
+        gap: 5px;
+    }
+}
