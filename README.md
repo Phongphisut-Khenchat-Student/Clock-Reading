@@ -27,15 +27,9 @@ digital-clock/
 
 1. 📥 Clone the repository:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Phongphisut-Khenchat-Student/Clock-Reading.git)
 ```
-
-2. 📁 Navigate to project directory:
-```bash
-cd digital-clock
-```
-
-3. 🌐 Open `index.html` in your browser
+2. 🌐 Open `index.html` in your browser
 
 ## 🛠️ Technologies Used
 
